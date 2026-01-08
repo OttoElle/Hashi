@@ -1,9 +1,9 @@
 ﻿#include "Utils.h"
 
 int main() {
-	SetConsoleOutputCP(437);
-	srand(clock());
-	clearLog();
+	SetConsoleOutputCP(437);	// Für richtige Darstellung der ASCII-Zeichen
+	srand(clock());				// Seed für Zufallsgenerator
+	clearLog();					// Log Datei leeren
 	logEvent("Hashi gestartet");
 	int status;
 	do {

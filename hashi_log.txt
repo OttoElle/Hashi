@@ -6,419 +6,255 @@ Spieler gegen Computer
 Spielfeldgroesse: 16x16
 Hier ist das Spielfeld:
 ++++++++++++++++++++++++++++++++++++++++++++++++++
-+[3]      (4)   (5)      (6)            (2)      +
-+                  (1)         (3)   (2)      (2)+
++[3]   (6)   (4)   (3)                     (3)   +
 +                                                +
-+(5)      (3)      (4)   (5)      (3)   (3)      +
-+   (1)                                          +
-+                  (4)   (4)      (1)            +
-+                                             (3)+
-+   (3)         (5)            (7)      (3)      +
-+                  (3)      (3)   (1)            +
-+               (2)      (1)                     +
-+                           (1)   (2)   (2)      +
-+         (2)      (4)   (5)   (7)            (5)+
-+(4)                                 (2)   (1)   +
-+   (5)                  (4)                     +
-+(2)                           (3)   (4)      (3)+
-+   (3)   (4)      (4)   (4)      (1)            +
-++++++++++++++++++++++++++++++++++++++++++++++++++
-Name des menschlichen Spielers: otto
-Zuege von otto:
-otto hat aufgegeben!
-
-
-Nun ist der Computer dran:
-Zuege des Computers:
-Einfache Bruecke von [0;0] nach [3;0]
-Einfache Bruecke von [0;0] nach [0;3]
-Einfache Bruecke von [0;3] nach [3;3]
-Einfache Bruecke von [0;3] nach [0;12]
-Einfache Bruecke von [1;4] nach [1;7]
-Einfache Bruecke von [1;13] nach [8;13]
-Einfache Bruecke von [1;13] nach [1;15]
-Einfache Bruecke von [1;7] nach [1;13]
-Einfache Bruecke von [1;15] nach [3;15]
-Einfache Bruecke von [3;15] nach [6;15]
-Doppelte Bruecke von [1;15] nach [3;15]
-Einfache Bruecke von [5;0] nach [8;0]
-Einfache Bruecke von [3;0] nach [5;0]
-Einfache Bruecke von [5;0] nach [5;7]
-Einfache Bruecke von [5;7] nach [5;9]
-Einfache Bruecke von [6;3] nach [8;3]
-Einfache Bruecke von [6;3] nach [6;5]
-Einfache Bruecke von [6;15] nach [8;15]
-Doppelte Bruecke von [3;15] nach [6;15]
-Einfache Bruecke von [8;0] nach [13;0]
-Doppelte Bruecke von [5;0] nach [8;0]
-Einfache Bruecke von [8;0] nach [8;3]
-Einfache Bruecke von [8;13] nach [8;15]
-Einfache Bruecke von [6;8] nach [9;8]
-Einfache Bruecke von [10;1] nach [12;1]
-Einfache Bruecke von [10;1] nach [10;7]
-Einfache Bruecke von [10;7] nach [13;7]
-Einfache Bruecke von [5;7] nach [10;7]
-Einfache Bruecke von [10;7] nach [10;11]
-Einfache Bruecke von [10;11] nach [15;11]
-Einfache Bruecke von [8;11] nach [10;11]
-Einfache Bruecke von [10;11] nach [10;14]
-Einfache Bruecke von [10;14] nach [12;14]
-Einfache Bruecke von [11;3] nach [13;3]
-Einfache Bruecke von [11;3] nach [11;5]
-Einfache Bruecke von [11;8] nach [11;10]
-Einfache Bruecke von [11;10] nach [13;10]
-Einfache Bruecke von [8;15] nach [11;15]
-Einfache Bruecke von [12;12] nach [12;14]
-Einfache Bruecke von [13;7] nach [13;10]
-Einfache Bruecke von [12;12] nach [14;12]
-Einfache Bruecke von [15;1] nach [15;6]
-Einfache Bruecke von [15;6] nach [15;11]
-Einfache Bruecke von [15;11] nach [15;14]
-Einfache Bruecke von [12;14] nach [15;14]
-Einfache Bruecke von [0;12] nach [0;14]
-Doppelte Bruecke von [0;3] nach [0;12]
-Doppelte Bruecke von [0;12] nach [0;14]
-Doppelte Bruecke von [1;13] nach [8;13]
-Doppelte Bruecke von [1;7] nach [1;13]
-Einfache Bruecke von [6;1] nach [6;3]
-Einfache Bruecke von [6;5] nach [8;5]
-Doppelte Bruecke von [6;3] nach [6;5]
-Einfache Bruecke von [6;8] nach [6;11]
-Doppelte Bruecke von [6;15] nach [8;15]
-Doppelte Bruecke von [8;0] nach [13;0]
-Doppelte Bruecke von [8;0] nach [8;3]
-Einfache Bruecke von [8;3] nach [8;5]
-Doppelte Bruecke von [6;5] nach [8;5]
-Doppelte Bruecke von [8;3] nach [8;5]
-Einfache Bruecke von [8;9] nach [8;11]
-Einfache Bruecke von [6;11] nach [8;11]
-Einfache Bruecke von [8;11] nach [8;13]
-Doppelte Bruecke von [6;8] nach [9;8]
-Einfache Bruecke von [9;8] nach [9;10]
-Doppelte Bruecke von [11;3] nach [13;3]
-Einfache Bruecke von [13;3] nach [13;7]
-Doppelte Bruecke von [5;7] nach [5;9]
-Einfache Bruecke von [3;11] nach [6;11]
-Doppelte Bruecke von [5;7] nach [10;7]
-Doppelte Bruecke von [10;7] nach [10;11]
-Doppelte Bruecke von [10;1] nach [10;7]
-Einfache Bruecke von [12;1] nach [15;1]
-Doppelte Bruecke von [15;6] nach [15;11]
-Doppelte Bruecke von [3;0] nach [5;0]
-Doppelte Bruecke von [6;11] nach [8;11]
-Doppelte Bruecke von [10;11] nach [15;11]
-Doppelte Bruecke von [10;11] nach [10;14]
-Doppelte Bruecke von [12;14] nach [15;14]
-Einfache Bruecke von [3;3] nach [3;11]
-Doppelte Bruecke von [0;0] nach [3;0]
-Doppelte Bruecke von [0;3] nach [3;3]
-Computer hat 82 Zuege gebraucht.
-Der Computer hat gewonnen, da otto aufgegeben hat!
-Board von otto:
-++++++++++++++++++++++++++++++++++++++++++++++++++
-+[3]      (4)   (5)      (6)            (2)      +
-+                  (1)         (3)   (2)      (2)+
-+                                                +
-+(5)      (3)      (4)   (5)      (3)   (3)      +
-+   (1)                                          +
-+                  (4)   (4)      (1)            +
-+                                             (3)+
-+   (3)         (5)            (7)      (3)      +
-+                  (3)      (3)   (1)            +
-+               (2)      (1)                     +
-+                           (1)   (2)   (2)      +
-+         (2)      (4)   (5)   (7)            (5)+
-+(4)                                 (2)   (1)   +
-+   (5)                  (4)                     +
-+(2)                           (3)   (4)      (3)+
-+   (3)   (4)      (4)   (4)      (1)            +
-++++++++++++++++++++++++++++++++++++++++++++++++++
-Board von Computer:
-++++++++++++++++++++++++++++++++++++++++++++++++++
-+[3]======(4)===(5)======(6)============(2)      +
-+ |              | (1)    H    (3)---(2)------(2)+
-+ |              |  |     H     H              | +
-+(5)======(3)    | (4)---(5)    H (3)===(3)    | +
-+ H (1)    |     |  H     H     H  |     |     | +
-+ H  |     |     | (4)===(4)    H (1)    |     | +
-+ H  |     |     |              H        |    (3)+
-+ H (3)    |    (5)============(7)------(3)    H +
-+ H  H     |     H (3)======(3) H (1)    |     H +
-+ H  H     |    (2) |    (1) |  H  |     |     H +
-+ H  H     |        |     | (1) H (2)---(2)    H +
-+ H  H    (2)------(4)===(5)---(7)============(5)+
-+(4) H                    |     H    (2)---(1) | +
-+ H (5)==================(4)    H     |        | +
-+(2) |                    |    (3)---(4)======(3)+
-+   (3)===(4)======(4)===(4)------(1)            +
-++++++++++++++++++++++++++++++++++++++++++++++++++
----- Ende vom Spiel ----
-
-
----- Neues Spiel gestartet ----
-Spieler gegen Computer
-Spielfeldgroesse: 16x16
-Hier ist das Spielfeld:
-++++++++++++++++++++++++++++++++++++++++++++++++++
-+[ ](2)   (3)                        (3)   (3)   +
-+                                                +
-+   (5)                  (6)               (6)   +
-+         (2)      (4)                           +
-+                              (3)      (3)      +
-+   (5)            (5)               (2)         +
-+         (2)   (4)               (2)            +
-+                        (5)   (4)         (4)   +
-+   (5)         (6)                              +
-+                                                +
-+                                                +
-+                        (3)   (3)               +
-+                                       (1)      +
-+                  (3)            (4)            +
-+                                                +
-+   (3)         (4)                  (4)   (3)   +
-++++++++++++++++++++++++++++++++++++++++++++++++++
-Name des menschlichen Spielers: a
-Zuege von a:
-a hat aufgegeben!
-
-
-Nun ist der Computer dran:
-Zuege des Computers:
-Einfache Bruecke von [1;2] nach [8;2]
-Einfache Bruecke von [1;2] nach [1;5]
-Einfache Bruecke von [1;0] nach [1;2]
-Einfache Bruecke von [1;5] nach [6;5]
-Einfache Bruecke von [1;5] nach [1;8]
-Einfache Bruecke von [1;8] nach [5;8]
-Einfache Bruecke von [1;8] nach [1;15]
-Einfache Bruecke von [1;15] nach [5;15]
-Einfache Bruecke von [3;0] nach [12;0]
-Einfache Bruecke von [1;0] nach [3;0]
-Einfache Bruecke von [3;3] nach [6;3]
-Einfache Bruecke von [3;6] nach [5;6]
-Doppelte Bruecke von [1;8] nach [5;8]
-Einfache Bruecke von [5;8] nach [5;15]
-Einfache Bruecke von [5;6] nach [5;8]
-Doppelte Bruecke von [3;3] nach [6;3]
-Einfache Bruecke von [6;3] nach [6;5]
-Einfache Bruecke von [6;13] nach [11;13]
-Einfache Bruecke von [6;5] nach [6;13]
-Einfache Bruecke von [8;2] nach [14;2]
-Doppelte Bruecke von [1;2] nach [8;2]
-Einfache Bruecke von [8;2] nach [8;7]
-Einfache Bruecke von [8;7] nach [10;7]
-Einfache Bruecke von [8;7] nach [8;11]
-Einfache Bruecke von [8;11] nach [10;11]
-Einfache Bruecke von [10;4] nach [13;4]
-Einfache Bruecke von [10;4] nach [10;7]
-Einfache Bruecke von [10;7] nach [10;11]
-Einfache Bruecke von [11;6] nach [11;13]
-Doppelte Bruecke von [6;13] nach [11;13]
-Doppelte Bruecke von [11;6] nach [11;13]
-Einfache Bruecke von [12;0] nach [14;0]
-Einfache Bruecke von [12;5] nach [12;15]
-Doppelte Bruecke von [10;4] nach [13;4]
-Einfache Bruecke von [13;4] nach [13;12]
-Einfache Bruecke von [14;0] nach [14;2]
-Doppelte Bruecke von [8;2] nach [14;2]
-Einfache Bruecke von [14;2] nach [14;7]
-Doppelte Bruecke von [14;0] nach [14;2]
-Einfache Bruecke von [14;7] nach [14;15]
-Doppelte Bruecke von [14;2] nach [14;7]
-Einfache Bruecke von [12;15] nach [14;15]
-Doppelte Bruecke von [1;2] nach [1;5]
-Doppelte Bruecke von [3;0] nach [12;0]
-Doppelte Bruecke von [3;6] nach [5;6]
-Doppelte Bruecke von [5;6] nach [5;8]
-Doppelte Bruecke von [5;8] nach [5;15]
-Doppelte Bruecke von [6;3] nach [6;5]
-Doppelte Bruecke von [1;5] nach [6;5]
-Doppelte Bruecke von [8;2] nach [8;7]
-Doppelte Bruecke von [12;5] nach [12;15]
-Doppelte Bruecke von [14;7] nach [14;15]
-Doppelte Bruecke von [1;8] nach [1;15]
-Einfache Bruecke von [5;15] nach [12;15]
-Doppelte Bruecke von [8;7] nach [10;7]
-Doppelte Bruecke von [8;11] nach [10;11]
-Computer hat 56 Zuege gebraucht.
-Der Computer hat gewonnen, da a aufgegeben hat!
-Board von a:
-++++++++++++++++++++++++++++++++++++++++++++++++++
-+[ ](2)   (3)                        (3)   (3)   +
-+                                                +
-+   (5)                  (6)               (6)   +
-+         (2)      (4)                           +
-+                              (3)      (3)      +
-+   (5)            (5)               (2)         +
-+         (2)   (4)               (2)            +
-+                        (5)   (4)         (4)   +
-+   (5)         (6)                              +
-+                                                +
-+                                                +
-+                        (3)   (3)               +
-+                                       (1)      +
-+                  (3)            (4)            +
-+                                                +
-+   (3)         (4)                  (4)   (3)   +
-++++++++++++++++++++++++++++++++++++++++++++++++++
-Board von Computer:
-++++++++++++++++++++++++++++++++++++++++++++++++++
-+[ ](2)---(3)========================(3)---(3)   +
-+    |                                      H    +
-+   (5)==================(6)===============(6)   +
-+    H    (2)======(4)    H                 H    +
-+    H              H     H    (3)======(3) H    +
-+   (5)============(5)    H     |    (2) |  H    +
-+    |    (2)===(4) |     H     | (2) H  |  H    +
-+    |           H  |    (5)===(4) H  H  | (4)   +
-+   (5)=========(6) |     |     |  H  H  |  H    +
-+    H           H  |     |     |  H  H  |  H    +
-+    H           H  |     |     |  H  H  |  H    +
-+    H           H  |    (3)===(3) H  H  |  H    +
-+    H           H  |              H  H (1) H    +
-+    H           H (3)============(4) H     H    +
-+    H           H                    H     H    +
-+   (3)---------(4)------------------(4)---(3)   +
-++++++++++++++++++++++++++++++++++++++++++++++++++
----- Ende vom Spiel ----
-
-
----- Neues Spiel gestartet ----
-Spieler gegen Computer
-Spielfeldgroesse: 16x16
-Hier ist das Spielfeld:
-++++++++++++++++++++++++++++++++++++++++++++++++++
-+[ ]   (2)                           (4)   (3)   +
-+(4)      (6)         (6)         (2)         (2)+
-+                           (4)      (7)   (4)   +
-+   (1)                                 (3)   (5)+
-+                                 (1)            +
-+               (1)   (3)                        +
-+                                       (3)      +
-+                                                +
-+   (5)   (7)               (7)   (4)            +
-+                                       (6)   (5)+
-+               (3)      (2)                     +
-+                                 (2)   (3)      +
-+                                                +
-+   (2)         (3)         (6)   (3)   (1)      +
-+                                                +
-+(4)      (6)                        (5)      (3)+
++(5)   (7)                                 (5)   +
++         (3)   (3)      (2)      (3)   (2)      +
++(3)                                             +
++               (3)   (4)                  (5)   +
++         (4)      (3)            (4)   (2)      +
++(4)   (5)            (4)      (4)               +
++            (1)   (2)                           +
++(3)      (2)   (1)   (3)   (2)                  +
++                        (2)   (4)      (1)   (1)+
++         (5)      (6)            (7)      (5)   +
++            (1)                                 +
++         (2)         (2)         (4)   (1)      +
++            (3)   (5)   (4)   (3)         (2)   +
++(2)   (5)            (3)                     (2)+
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 Name des menschlichen Spielers: 2
 Zuege von 2:
-2 hat aufgegeben!
+Einfache Bruecke von [1;0] nach [1;0]
+Einfache Bruecke von [0;1] nach [0;1]
+Einfache Bruecke von [7;0] nach [13;0]
+Einfache Bruecke von [14;1] nach [14;1]
+Einfache Bruecke von [3;2] nach [13;2]
+Einfache Bruecke von [14;3] nach [14;4]
+Einfache Bruecke von [5;0] nach [5;0]
+Einfache Bruecke von [3;0] nach [3;0]
+Doppelte Bruecke von [3;0] nach [3;0]
+Doppelte Bruecke von [5;0] nach [5;0]
+Einfache Bruecke von [2;1] nach [2;1]
+Doppelte Bruecke von [2;1] nach [2;1]
+Doppelte Bruecke von [1;0] nach [1;0]
+Einfache Bruecke von [1;2] nach [1;2]
+Doppelte Bruecke von [1;2] nach [1;2]
+Einfache Bruecke von [0;3] nach [2;3]
+Doppelte Bruecke von [0;3] nach [0;3]
+Einfache Bruecke von [2;3] nach [2;6]
+Doppelte Bruecke von [2;3] nach [2;6]
+Einfache Bruecke von [2;3] nach [2;6]
+Einfache Bruecke von [4;3] nach [4;3]
+Einfache Bruecke von [3;4] nach [3;5]
+Einfache Bruecke von [8;5] nach [13;5]
+Einfache Bruecke von [14;6] nach [14;10]
+Einfache Bruecke von [12;11] nach [13;11]
+Einfache Bruecke von [5;12] nach [14;13]
+Einfache Bruecke von [15;11] nach [15;14]
+Einfache Bruecke von [8;15] nach [14;15]
+Einfache Bruecke von [2;8] nach [3;14]
+Einfache Bruecke von [3;15] nach [6;15]
+Einfache Bruecke von [1;15] nach [1;15]
+Einfache Bruecke von [0;10] nach [0;14]
+Einfache Bruecke von [0;8] nach [0;8]
+Doppelte Bruecke von [0;8] nach [0;8]
+Doppelte Bruecke von [2;8] nach [2;14]
+Doppelte Bruecke von [3;15] nach [6;15]
+Einfache Bruecke von [5;8] nach [5;8]
+Einfache Bruecke von [12;3] nach [12;3]
+Doppelte Bruecke von [12;3] nach [12;3]
+Einfache Bruecke von [9;3] nach [10;3]
+Einfache Bruecke von [6;3] nach [7;3]
+Einfache Bruecke von [12;13] nach [12;13]
+Einfache Bruecke von [5;12] nach [11;12]
+Einfache Bruecke von [8;13] nach [10;13]
+Einfache Bruecke von [11;10] nach [12;10]
+Doppelte Bruecke von [11;10] nach [12;10]
+Einfache Bruecke von [11;7] nach [12;10]
+Einfache Bruecke von [7;11] nach [10;11]
+Einfache Bruecke von [13;7] nach [13;9]
+Einfache Bruecke von [12;6] nach [12;6]
+Einfache Bruecke von [8;7] nach [9;7]
+Doppelte Bruecke von [8;7] nach [9;7]
+Einfache Bruecke von [7;8] nach [10;9]
+Doppelte Bruecke von [10;8] nach [10;9]
+Einfache Bruecke von [9;10] nach [9;10]
+Doppelte Bruecke von [9;10] nach [9;10]
+Einfache Bruecke von [8;9] nach [8;9]
+Doppelte Bruecke von [8;9] nach [8;9]
+Einfache Bruecke von [5;12] nach [6;13]
+Einfache Bruecke von [5;14] nach [5;14]
+Einfache Bruecke von [7;14] nach [7;14]
+Doppelte Bruecke von [7;14] nach [7;14]
+Einfache Bruecke von [9;14] nach [9;14]
+Doppelte Bruecke von [9;14] nach [9;14]
+Einfache Bruecke von [11;14] nach [13;14]
+Doppelte Bruecke von [8;13] nach [10;13]
+Doppelte Bruecke von [12;11] nach [13;11]
+Doppelte Bruecke von [11;7] nach [11;10]
+Doppelte Bruecke von [7;11] nach [10;11]
+Einfache Bruecke von [7;6] nach [10;6]
+Doppelte Bruecke von [14;6] nach [14;10]
+Doppelte Bruecke von [14;1] nach [14;1]
+Einfache Bruecke von [6;5] nach [6;5]
+Doppelte Bruecke von [6;5] nach [6;5]
+Doppelte Bruecke von [8;5] nach [13;5]
+Doppelte Bruecke von [3;2] nach [13;2]
+Einfache Bruecke von [3;7] nach [6;7]
+Doppelte Bruecke von [3;7] nach [6;7]
+Einfache Bruecke von [3;7] nach [6;7]
+Doppelte Bruecke von [6;7] nach [6;7]
+Einfache Bruecke von [0;5] nach [0;6]
+Einfache Bruecke von [1;7] nach [1;7]
+Einfache Bruecke von [3;7] nach [6;7]
+Einfache Bruecke von [7;8] nach [7;8]
+Einfache Bruecke von [4;6] nach [5;6]
+Doppelte Bruecke von [4;6] nach [5;6]
+Doppelte Bruecke von [3;4] nach [3;5]
+Einfache Bruecke von [5;4] nach [5;4]
+Einfache Bruecke von [4;9] nach [4;9]
+Einfache Bruecke von [3;10] nach [7;10]
+Einfache Bruecke von [3;12] nach [3;12]
+Doppelte Bruecke von [3;12] nach [3;12]
+Einfache Bruecke von [4;11] nach [5;11]
+Doppelte Bruecke von [4;11] nach [5;11]
+Einfache Bruecke von [4;13] nach [4;13]
+Doppelte Bruecke von [5;14] nach [5;14]
+Einfache Bruecke von [6;9] nach [7;10]
+2 hat das Raetsel in 63 Zuegen geloest.
 
 
 Nun ist der Computer dran:
 Zuege des Computers:
-Einfache Bruecke von [0;1] nach [3;1]
-Einfache Bruecke von [0;1] nach [0;15]
-Einfache Bruecke von [0;15] nach [3;15]
-Doppelte Bruecke von [0;1] nach [0;15]
-Einfache Bruecke von [1;8] nach [3;8]
-Einfache Bruecke von [1;8] nach [1;13]
-Einfache Bruecke von [1;3] nach [1;8]
-Einfache Bruecke von [2;0] nach [12;0]
-Einfache Bruecke von [3;1] nach [7;1]
-Doppelte Bruecke von [0;1] nach [3;1]
-Einfache Bruecke von [3;1] nach [3;8]
-Einfache Bruecke von [3;8] nach [9;8]
-Einfache Bruecke von [3;8] nach [3;15]
-Einfache Bruecke von [3;15] nach [12;15]
-Doppelte Bruecke von [0;15] nach [3;15]
-Doppelte Bruecke von [3;8] nach [3;15]
+Einfache Bruecke von [0;0] nach [2;0]
+Einfache Bruecke von [0;0] nach [0;2]
+Einfache Bruecke von [0;2] nach [2;2]
+Einfache Bruecke von [0;2] nach [0;4]
+Einfache Bruecke von [0;4] nach [0;7]
+Einfache Bruecke von [2;0] nach [4;0]
+Doppelte Bruecke von [0;0] nach [2;0]
+Einfache Bruecke von [2;0] nach [2;2]
+Einfache Bruecke von [2;2] nach [14;2]
+Einfache Bruecke von [2;2] nach [2;7]
+Einfache Bruecke von [2;15] nach [7;15]
+Einfache Bruecke von [0;15] nach [2;15]
+Einfache Bruecke von [2;7] nach [2;15]
+Einfache Bruecke von [3;3] nach [5;3]
+Einfache Bruecke von [3;3] nach [3;6]
+Einfache Bruecke von [3;11] nach [6;11]
+Einfache Bruecke von [3;11] nach [3;13]
+Einfache Bruecke von [3;9] nach [3;11]
+Einfache Bruecke von [4;0] nach [6;0]
+Doppelte Bruecke von [2;0] nach [4;0]
+Einfache Bruecke von [4;8] nach [6;8]
+Einfache Bruecke von [4;12] nach [4;14]
+Einfache Bruecke von [4;14] nach [6;14]
 Einfache Bruecke von [5;5] nach [7;5]
-Einfache Bruecke von [5;10] nach [8;10]
-Einfache Bruecke von [5;10] nach [5;13]
-Einfache Bruecke von [5;13] nach [9;13]
-Einfache Bruecke von [7;1] nach [11;1]
-Doppelte Bruecke von [3;1] nach [7;1]
-Einfache Bruecke von [7;1] nach [7;5]
-Doppelte Bruecke von [7;1] nach [7;5]
-Doppelte Bruecke von [5;10] nach [8;10]
-Einfache Bruecke von [9;2] nach [12;2]
-Einfache Bruecke von [9;2] nach [9;8]
-Einfache Bruecke von [9;8] nach [11;8]
-Einfache Bruecke von [9;8] nach [9;13]
-Einfache Bruecke von [9;13] nach [11;13]
-Doppelte Bruecke von [5;13] nach [9;13]
-Doppelte Bruecke von [9;8] nach [9;13]
-Einfache Bruecke von [11;4] nach [11;8]
-Einfache Bruecke von [11;8] nach [11;11]
-Einfache Bruecke von [12;2] nach [14;2]
-Einfache Bruecke von [12;2] nach [12;15]
-Einfache Bruecke von [12;0] nach [12;2]
-Einfache Bruecke von [12;15] nach [15;15]
-Einfache Bruecke von [13;3] nach [15;3]
-Einfache Bruecke von [13;3] nach [13;6]
-Einfache Bruecke von [13;6] nach [13;9]
-Einfache Bruecke von [13;9] nach [15;9]
-Einfache Bruecke von [13;9] nach [13;11]
-Doppelte Bruecke von [13;6] nach [13;9]
-Einfache Bruecke von [13;11] nach [13;13]
-Doppelte Bruecke von [13;9] nach [13;11]
-Einfache Bruecke von [12;0] nach [14;0]
-Einfache Bruecke von [14;0] nach [14;2]
-Doppelte Bruecke von [12;2] nach [14;2]
-Doppelte Bruecke von [14;0] nach [14;2]
-Einfache Bruecke von [15;1] nach [15;3]
-Einfache Bruecke von [15;3] nach [15;9]
-Einfache Bruecke von [15;9] nach [15;15]
-Doppelte Bruecke von [1;8] nach [3;8]
-Doppelte Bruecke von [1;8] nach [1;13]
-Doppelte Bruecke von [2;0] nach [12;0]
-Doppelte Bruecke von [3;1] nach [3;8]
-Doppelte Bruecke von [3;15] nach [12;15]
-Doppelte Bruecke von [7;1] nach [11;1]
-Doppelte Bruecke von [9;2] nach [12;2]
-Doppelte Bruecke von [9;2] nach [9;8]
-Doppelte Bruecke von [9;8] nach [11;8]
-Doppelte Bruecke von [9;13] nach [11;13]
+Einfache Bruecke von [5;3] nach [5;5]
+Einfache Bruecke von [6;0] nach [14;0]
+Einfache Bruecke von [6;11] nach [11;11]
+Einfache Bruecke von [6;11] nach [6;14]
+Einfache Bruecke von [6;14] nach [8;14]
+Einfache Bruecke von [7;13] nach [11;13]
+Einfache Bruecke von [7;15] nach [15;15]
+Einfache Bruecke von [8;14] nach [10;14]
+Doppelte Bruecke von [6;14] nach [8;14]
+Einfache Bruecke von [7;9] nach [9;9]
+Einfache Bruecke von [7;7] nach [10;7]
+Einfache Bruecke von [10;7] nach [10;10]
+Einfache Bruecke von [8;10] nach [10;10]
+Einfache Bruecke von [10;14] nach [14;14]
+Einfache Bruecke von [11;11] nach [14;11]
 Einfache Bruecke von [11;11] nach [11;13]
-Doppelte Bruecke von [12;2] nach [12;15]
-Doppelte Bruecke von [13;3] nach [15;3]
-Doppelte Bruecke von [13;9] nach [15;9]
-Doppelte Bruecke von [15;1] nach [15;3]
-Doppelte Bruecke von [15;9] nach [15;15]
-Computer hat 69 Zuege gebraucht.
-Der Computer hat gewonnen, da 2 aufgegeben hat!
+Einfache Bruecke von [11;6] nach [11;11]
+Einfache Bruecke von [11;13] nach [13;13]
+Einfache Bruecke von [14;0] nach [14;2]
+Einfache Bruecke von [14;2] nach [14;5]
+Einfache Bruecke von [7;5] nach [14;5]
+Einfache Bruecke von [14;5] nach [14;11]
+Doppelte Bruecke von [11;11] nach [14;11]
+Einfache Bruecke von [14;11] nach [14;14]
+Doppelte Bruecke von [14;5] nach [14;11]
+Einfache Bruecke von [15;10] nach [15;15]
+Doppelte Bruecke von [0;2] nach [2;2]
+Doppelte Bruecke von [0;2] nach [0;4]
+Einfache Bruecke von [0;7] nach [2;7]
+Einfache Bruecke von [0;7] nach [0;9]
+Einfache Bruecke von [0;9] nach [0;15]
+Doppelte Bruecke von [0;7] nach [0;9]
+Doppelte Bruecke von [2;0] nach [2;2]
+Doppelte Bruecke von [2;15] nach [7;15]
+Doppelte Bruecke von [2;7] nach [2;15]
+Einfache Bruecke von [3;6] nach [6;6]
+Doppelte Bruecke von [3;11] nach [3;13]
+Doppelte Bruecke von [4;0] nach [6;0]
+Doppelte Bruecke von [4;14] nach [6;14]
+Doppelte Bruecke von [6;11] nach [11;11]
+Doppelte Bruecke von [3;11] nach [6;11]
+Einfache Bruecke von [6;8] nach [6;11]
+Einfache Bruecke von [7;7] nach [7;9]
+Doppelte Bruecke von [7;13] nach [11;13]
+Einfache Bruecke von [8;3] nach [11;3]
+Doppelte Bruecke von [8;10] nach [10;10]
+Doppelte Bruecke von [8;14] nach [10;14]
+Doppelte Bruecke von [7;9] nach [9;9]
+Doppelte Bruecke von [7;7] nach [10;7]
+Doppelte Bruecke von [10;7] nach [10;10]
+Einfache Bruecke von [11;3] nach [13;3]
+Doppelte Bruecke von [11;6] nach [11;11]
+Doppelte Bruecke von [11;3] nach [13;3]
+Einfache Bruecke von [11;6] nach [13;6]
+Einfache Bruecke von [13;6] nach [13;10]
+Doppelte Bruecke von [14;0] nach [14;2]
+Einfache Bruecke von [3;9] nach [5;9]
+Einfache Bruecke von [6;6] nach [11;6]
+Doppelte Bruecke von [3;6] nach [6;6]
+Doppelte Bruecke von [7;5] nach [14;5]
+Doppelte Bruecke von [5;5] nach [7;5]
+Einfache Bruecke von [2;7] nach [7;7]
+Einfache Bruecke von [5;3] nach [8;3]
+Doppelte Bruecke von [2;2] nach [14;2]
+Doppelte Bruecke von [3;3] nach [3;6]
+Computer hat 89 Zuege gebraucht.
+2 hat 63 Zuege gebraucht.
+2 hat mit weniger Zuegen gewonnen!
 Board von 2:
 ++++++++++++++++++++++++++++++++++++++++++++++++++
-+[ ]   (2)                           (4)   (3)   +
-+(4)      (6)         (6)         (2)         (2)+
-+                           (4)      (7)   (4)   +
-+   (1)                                 (3)   (5)+
-+                                 (1)            +
-+               (1)   (3)                        +
-+                                       (3)      +
-+                                                +
-+   (5)   (7)               (7)   (4)            +
-+                                       (6)   (5)+
-+               (3)      (2)                     +
-+                                 (2)   (3)      +
-+                                                +
-+   (2)         (3)         (6)   (3)   (1)      +
-+                                                +
-+(4)      (6)                        (5)      (3)+
++[3]===(6)===(4)===(3)---------------------(3)   +
++ |     H                                   H    +
++(5)===(7)=================================(5)   +
++ H     | (3)---(3)------(2)------(3)===(2) |    +
++(3)    |  H     |                          |    +
++ |     |  H    (3)===(4)==================(5)   +
++ |     | (4)======(3)------------(4)---(2) H    +
++(4)---(5)------------(4)======(4) H     |  H    +
++ H     H    (1)---(2) |        H  H     |  H    +
++(3)    H (2)---(1) | (3)===(2) H  H     |  H    +
++ |     H  |        |    (2)===(4) H    (1) H (1)+
++ |     H (5)======(6)============(7)======(5) | +
++ |     H  H (1)    |              |        |  | +
++ |     H (2) |     | (2)=========(4)---(1) |  | +
++ |     H    (3)===(5)===(4)===(3)---------(2) | +
++(2)---(5)============(3)---------------------(2)+
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 Board von Computer:
 ++++++++++++++++++++++++++++++++++++++++++++++++++
-+[ ]   (2)===========================(4)---(3)   +
-+(4)======(6)=========(6)=========(2) |     H (2)+
-+ H        H           H    (4)======(7)===(4) H +
-+ H (1)    H           H     H        H (3)===(5)+
-+ H  |     H           H     H    (1) H  |     | +
-+ H  |     H    (1)---(3)    H     |  H  |     | +
-+ H  |     H                 H     |  H (3)    | +
-+ H  |     H                 H     |  H  H     | +
-+ H (5)===(7)---------------(7)===(4) H  H     | +
-+ H  H     H                 H     |  H (6)===(5)+
-+ H  H     H    (3)======(2) H     |  H  H     H +
-+ H  H     H     |           H    (2) H (3)    H +
-+ H  H     H     |           H     |  H  |     H +
-+ H (2)    H    (3)=========(6)===(3) H (1)    H +
-+ H        H                          H        H +
-+(4)======(6)========================(5)------(3)+
++[3]===(6)===(4)===(3)---------------------(3)   +
++ |     H                                   H    +
++(5)===(7)=================================(5)   +
++ H     | (3)---(3)------(2)------(3)===(2) |    +
++(3)    |  H     |                          |    +
++ |     |  H    (3)===(4)==================(5)   +
++ |     | (4)======(3)------------(4)---(2) H    +
++(4)---(5)------------(4)======(4) H     |  H    +
++ H     H    (1)---(2) |        H  H     |  H    +
++(3)    H (2)---(1) | (3)===(2) H  H     |  H    +
++ |     H  |        |    (2)===(4) H    (1) H (1)+
++ |     H (5)======(6)============(7)======(5) | +
++ |     H  H (1)    |              |        |  | +
++ |     H (2) |     | (2)=========(4)---(1) |  | +
++ |     H    (3)===(5)===(4)===(3)---------(2) | +
++(2)---(5)============(3)---------------------(2)+
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 ---- Ende vom Spiel ----

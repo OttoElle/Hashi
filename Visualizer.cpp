@@ -153,14 +153,16 @@ void printBoard(int board[16][16], int boardSize, int cursorX, int cursorY) {
 			}
 
 			if (x == cursorX && y == cursorY) {
+				cout << "\033[94m" << "[" << "\033[0m"; // Cursor wird blau gehighlightet
 				switch (board[x][y]) {
-				case  0: cout << "[ ]"; break;
-				case -1: cout << "[\xC4]"; break;
-				case -2: cout << "[\xCD]"; break;
-				case -3: cout << "[\xB3]"; break;
-				case -4: cout << "[\xBA]"; break;
-				default: cout << '[' << board[x][y] << ']' << "\033[0m";
+				case  0: cout << " "; break;
+				case -1: cout << "\xC4"; break;
+				case -2: cout << "\xCD"; break;
+				case -3: cout << "\xB3"; break;
+				case -4: cout << "\xBA"; break;
+				default: cout << board[x][y];
 				}
+				cout << "\033[94m" << "]";
 			}
 			else {
 				switch (board[x][y]) {
@@ -169,10 +171,11 @@ void printBoard(int board[16][16], int boardSize, int cursorX, int cursorY) {
 				case -2: cout << "\xCD\xCD\xCD"; break;
 				case -3: cout << " \xB3 "; break;
 				case -4: cout << " \xBA "; break;
-				default: cout << '(' << board[x][y] << ')' << "\033[0m";
+				default: cout << '(' << board[x][y] << ')';
 				}
 			}
 
+			cout << "\033[0m"; // Resettet die Farben
 
 		}
 		cout << "\xBA"; // Rahmen rechts

@@ -1,12 +1,12 @@
 #include "Utils.h"
 
-void clearLog() {
+void clearLog() { // Log Datei leeren
 	ofstream logFile;
 	logFile.open("hashi_log.txt");
 	logFile.close();
 }
 
-void printLog() {
+void printLog() { // Gesamte Log ausgeben
 	char c;
 	ifstream logFile("hashi_log.txt");
 	string line;
@@ -22,7 +22,7 @@ void printLog() {
 	cin >> c;
 }
 
-void logEvent(string message) {
+void logEvent(string message) { // Schreibt uebergebenen String an das Ende der Log
 	ofstream logFile;
 
 	logFile.open("hashi_log.txt", ios::app);

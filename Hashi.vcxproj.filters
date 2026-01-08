@@ -18,9 +18,6 @@
     <ClCompile Include="Generator.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
-    <ClCompile Include="Temp.cpp">
-      <Filter>Quelldateien</Filter>
-    </ClCompile>
     <ClCompile Include="Solver.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>

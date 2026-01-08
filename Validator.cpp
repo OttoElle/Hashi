@@ -53,7 +53,7 @@ bool checkBridges(int board[16][16], int boardSize, bool visited[16][16], int &i
 	return true;
 }
 
-void floodFill(int board[16][16], int boardSize, bool visited[16][16], int x, int y) {
+void floodFill(int board[16][16], int boardSize, bool visited[16][16], int x, int y) { // Rekursiver Floof Fill Alogorithmus um zu überprüfen ob alle Inseln verbunden sind
 
 	visited[x][y] = true;
 

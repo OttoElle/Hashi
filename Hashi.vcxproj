@@ -135,7 +135,6 @@
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Solver.cpp" />
-    <ClCompile Include="Temp.cpp" />
     <ClCompile Include="Utils.cpp" />
     <ClCompile Include="Validator.cpp" />
     <ClCompile Include="Visualizer.cpp" />

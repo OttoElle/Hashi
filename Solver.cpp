@@ -103,7 +103,7 @@ int solveBoard(int board[16][16], int boardSize) {
 		if (possCount > 0) { // Wurden Verbindungen gefunden?
 
 			int islandCap = board[islandX][islandY] - shadowBoard[islandX][islandY];	// noch offene Brücken-Kapazität der aktuellen Insel
-			int neighborCaps[4] = { 0 };														// Brücken-Kapazität der einzelnen Nachbarinseln
+			int neighborCaps[4] = { 0 };												// Brücken-Kapazität der einzelnen Nachbarinseln
 			int totalNeighborCap = 0;													// gesamte Brücken-Kapazität aller Nachbarinseln
 
 			for (int i = 0; i < possCount; i++) // Kapazitäten berechen
