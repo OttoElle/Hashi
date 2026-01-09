@@ -2,6 +2,7 @@
 
 
 int gameLoop() {
+
 	char c;
 	string playerName;
 	int board[16][16] = { 0 };
@@ -11,17 +12,24 @@ int gameLoop() {
 	int input = -1;
 	int playerMoves = 0;
 	int computerMoves = 0;
+
 	if (boardSize == 2) return 1;
 	if (boardSize == 0) return 0;
+
 	int playerMode = 0;
+
 	while (playerMode == 0) {
 		playerMode = getPlayerMode(); // 1 = Mensch, 2 = Computer, 0 = Invalid
 	};
+
 	generateBoard(board, boardSize);
 	eraseAllBridges(board, boardSize);
+
 	system("cls");
+
 	//	drawRules();
 	logEvent("\n\n---- Neues Spiel gestartet ----");
+
 	if (playerMode == 1) {//////////////////
 		logEvent("Mensch spielt.");
 		logEvent("Spielfeldgroesse: " + to_string(boardSize) + "x" + to_string(boardSize));
@@ -110,7 +118,10 @@ int gameLoop() {
 		logEvent("\n\nNun ist der Computer dran:");
 		logEvent("Zuege des Computers:");
 
-		computerMoves = solveBoard(tempBoard, boardSize);
+		Solver computer(tempBoard, boardSize);
+		computerMoves = computer.solve();
+		computer.getBoard(tempBoard);
+		//computerMoves = solveBoard(tempBoard, boardSize);
 		if (checkWin(tempBoard, boardSize)) {
 			cout << "\nDer Computer hat das Raetsel in " << computerMoves << " Zuegen geloest\n";
 			logEvent("Computer hat " + to_string(computerMoves) + " Zuege gebraucht.");
